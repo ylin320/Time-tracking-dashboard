@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./script.js"></script>
+    <title>Time Tracking Dashboard | Frontend Mentor</title>
+  </head>
+  <body>
+    <main>
+      <section class="profile">
+        <div class="profile-user">
+          <img
+            class="profile-avatar"
+            src="./images/image-jeremy.png"
+            alt="Jeremy Robson's profile picture"
+          />
+          <div class="profile-text">
+            <p class="profile-label">Report for</p>
+            <h1 class="profile-name">Jeremy Robson</h1>
+          </div>
+        </div>
+
+        <nav class="timenav">
+          <div class="timenav-list">
+            <button class="timenav-tab timenav-tab-active">Daily</button>
+            <button class="timenav-tab">Weekly</button>
+            <button class="timenav-tab">Monthly</button>
+          </div>
+        </nav>
+      </section>
+
+      <section class="activities">
+        <article class="activity activity-work">
+          <div class="activity-icon">
+            <img
+              class="activity-icon-image"
+              src="./images/icon-work.svg"
+              alt="Work activity icon"
+            />
+          </div>
+          <div class="activity-content">
+            <div class="activity-header">
+              <h3 class="activity-title">Work</h3>
+              <button class="activity-options">
+                <img
+                  class="activity-options-icon"
+                  src="./images/icon-ellipsis.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+            <div class="activity-stats">
+              <h4 class="activity-current">32hrs</h4>
+              <p class="activity-previous">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="activity activity-play">
+          <div class="activity-icon">
+            <img
+              class="activity-icon-image"
+              src="./images/icon-play.svg"
+              alt="Play activity icon"
+            />
+          </div>
+          <div class="activity-content">
+            <div class="activity-header">
+              <h3 class="activity-title">Play</h3>
+              <button class="activity-options">
+                <img
+                  class="activity-options-icon"
+                  src="./images/icon-ellipsis.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+            <div class="activity-stats">
+              <h4 class="activity-current">32hrs</h4>
+              <p class="activity-previous">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="activity activity-study">
+          <div class="activity-icon">
+            <img
+              class="activity-icon-image"
+              src="./images/icon-study.svg"
+              alt="Study activity icon"
+            />
+          </div>
+          <div class="activity-content">
+            <div class="activity-header">
+              <h3 class="activity-title">Study</h3>
+              <button class="activity-options">
+                <img
+                  class="activity-options-icon"
+                  src="./images/icon-ellipsis.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+            <div class="activity-stats">
+              <h4 class="activity-current">32hrs</h4>
+              <p class="activity-previous">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="activity activity-exercise">
+          <div class="activity-icon">
+            <img
+              class="activity-icon-image"
+              src="./images/icon-exercise.svg"
+              alt="Exercise activity icon"
+            />
+          </div>
+          <div class="activity-content">
+            <div class="activity-header">
+              <h3 class="activity-title">Exercise</h3>
+              <button class="activity-options">
+                <img
+                  class="activity-options-icon"
+                  src="./images/icon-ellipsis.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+            <div class="activity-stats">
+              <h4 class="activity-current">32hrs</h4>
+              <p class="activity-previous">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="activity activity-social">
+          <div class="activity-icon">
+            <img
+              class="activity-icon-image"
+              src="./images/icon-social.svg"
+              alt="Social activity icon"
+            />
+          </div>
+          <div class="activity-content">
+            <div class="activity-header">
+              <h3 class="activity-title">Social</h3>
+              <button class="activity-options">
+                <img
+                  class="activity-options-icon"
+                  src="./images/icon-ellipsis.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+            <div class="activity-stats">
+              <h4 class="activity-current">32hrs</h4>
+              <p class="activity-previous">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="activity activity-selfcare">
+          <div class="activity-icon">
+            <img
+              class="activity-icon-image"
+              src="./images/icon-self-care.svg"
+              alt="Self Care activity icon"
+            />
+          </div>
+          <div class="activity-content">
+            <div class="activity-header">
+              <h3 class="activity-title">Self Care</h3>
+              <button class="activity-options">
+                <img
+                  class="activity-options-icon"
+                  src="./images/icon-ellipsis.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+            <div class="activity-stats">
+              <h4 class="activity-current">32hrs</h4>
+              <p class="activity-previous">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
